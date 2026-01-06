@@ -209,26 +209,7 @@ a.accent:hover {
   transform: translateY(-6px);
   box-shadow: 0 16px 35px rgba(45, 212, 191, 0.18);
 }
-/* ---------- FOOTER ---------- */
 
-.footer {
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  padding: 40px 20px;
-  margin-top: 80px;
-  border-top: 1px solid #1e293b;
-}
-
-.footer a {
-  font-weight: 600;
-  color: #2dd4bf;
-  text-decoration: none;
-}
-
-.footer a:hover {
-  text-decoration: underline;
-}
 /* ---------- NAVBAR ---------- */
 
 .navbar {
@@ -364,4 +345,30 @@ form textarea {
 form:hover {
   box-shadow: 0 20px 40px rgba(45, 212, 191, 0.08);
   transition: box-shadow 0.3s ease;
+}
+/* ---------- FOOTER  ---------- */
+
+.footer {
+  margin-top: 100px;
+  padding: 40px 20px;
+  border-top: 1px solid #1e293b;
+  text-align: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+
+.footer-icons a {
+  color: #2dd4bf;
+  font-size: 28px;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #5eead4;
+  transform: scale(1.2);
 }

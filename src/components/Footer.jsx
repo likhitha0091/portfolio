@@ -1,25 +1,27 @@
-import "../styles/main.css";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="footer">
-      <a
-        href="https://github.com/likhitha0091"
-        target="_blank"
-        rel="noreferrer"
-        aria-label="GitHub"
-      >
-        <img src="/github.svg" alt="GitHub" />
-      </a>
+      <div className="footer-icons">
+        <a
+          href="https://github.com/likhitha0091"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="GitHub"
+        >
+          <FaGithub size={28} />
+        </a>
 
-      <a
-        href="https://linkedin.com/in/likhitha-sunkara"
-        target="_blank"
-        rel="noreferrer"
-        aria-label="LinkedIn"
-      >
-        <img src="/linkedin.svg" alt="LinkedIn" />
-      </a>
+        <a
+          href="https://www.linkedin.com/in/likhitha-sunkara"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="LinkedIn"
+        >
+          <FaLinkedin size={28} />
+        </a>
+      </div>
     </footer>
   );
 };
