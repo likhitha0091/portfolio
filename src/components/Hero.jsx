@@ -19,7 +19,12 @@ const Hero = () => {
 
         <div className="hero-actions">
           <a href="#projects" className="btn">View Projects</a>
-          <a href="#" className="btn outline">Download Resume</a>
+          <a href="/portfolio/Likhitha_Sunkara_Resume.pdf"
+            className="btn" download
+          >
+            Download Resume
+          </a>
+
         </div>
       </div>
     </section>
