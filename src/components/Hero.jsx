@@ -18,12 +18,12 @@ const Hero = () => {
         </p>
 
         <div className="hero-actions">
-          <a href="#projects" className="btn">View Projects</a>
-          <a href="/portfolio/Likhitha_Sunkara_Resume.pdf"
+          <a href={`${process.env.PUBLIC_URL}/Likhitha_Sunkara_Resume.pdf`}
             className="btn" download
           >
             Download Resume
           </a>
+
 
         </div>
       </div>
